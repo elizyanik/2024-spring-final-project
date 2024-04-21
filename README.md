@@ -2,23 +2,23 @@
 
 ## Introduction
 
-The final project for the semester will simulate use of data management and visualization techniques we have covered so far in a professional setting. The goal of the project is to choose a dataset, extract original insights from it which pertain to a meaningful problem, visualize the results, and produce a professional report in a Jupyter notebook. You are required to select a dataset which pertains to a *problem* of interest to you. A problem is an unsolved issue which causes a pain in a person, society, or organization.
+The final project for the semester will simulate use of data management and visualization techniques we have covered so far in a professional setting. The goal of the project is to choose a dataset, extract original insights from it which pertain to a meaningful problem, visualize the results, and produce a professional report in a Jupyter notebook. You are required to select a dataset which pertains to a *problem* of interest to you. A problem is an unsolved issue which causes a pain in a being, organization, or society.
 
-You are not required to solve the unsolved problem that you select, but you are required to extract insights from the problem which are completely original. When deciding what insights you want to extract, ask yourself, would someone what to work with me on this problem in a professional setting if they saw the insights I extracted, or would they assume that anyone (or any AI tool) could have easily extracted the same insights?
+You are not required to solve the unsolved problem that you select, but you are required to extract insights from the problem which are completely original. When deciding what insights you want to extract, ask yourself, would someone want to work with me on this problem in a professional setting if they saw the insights I extracted, or would they assume that anyone else (or any AI tool) could have easily extracted the same insights?
 
-No starter code will be provided. The goal of the project is to, by working only from minimally specified requirements, independently produce an in-depth analysis which extracts and professionally reports on insights gained from a data set about a problem of significance to a field you are interested in. Here we specify the project deliverables, requirements, grading criteria, and policies on collaboration with humans and AI tools.
+No starter code will be provided. The goal of the project is to independently produce an in-depth analysis which extracts and professionally reports on insights gained from a data set about a problem of significance to a field you are interested in. Here we specify the project deliverables, requirements, grading criteria, and policies on collaboration with humans and AI tools.
 
-While you may not choose a problem that you are working on directly in another class, choosing a problem which pertains to your general field, research, academic, or professional interests is highly encouraged.
+While you may not choose a problem that you are working on directly in another class, choosing a problem which pertains to your general field, research, academic, or professional interests is highly encouraged. If you are not sure what problem to pick, problem choices can be discussed in office hours.
 
 ## Deliverables
 
-Three project deliverables are required:
+Three project deliverables shall be provided.
 
 * **Project Abstract**: Write one paragraph in a README file specifying what problem you are going to be analyzing, where you can get data about that problem, what techniques you think you might be able to apply to it, and what insights you plan to attempt to extract from it. The project abstract is due the same day as the project itself, but it is highly recommended to review your topic idea with your instructor first. Sending via email or discussing in office hours are both acceptable.
-* **Project Notebook**: This is the main artifact of the final project. It should be a professionally written report on your problem and the insights you gained from it.
+* **Project Notebook**: This is the main artifact of the final project. It should be a professionally written report on your problem and the insights you gained from it, including any data management techniques you used to extract those insights and visualizations which display them.
 * **Project Modules**: Rather than developing large chunks of code in your Jupyter notebook, you are required to implement complex functions in their own modules and call these modules from your notebook. There should be a minimal amount of code in your Jupyter notebook.
 
-All deliverables are due **11:59 PM** at the end of the exam period, **05/08**. Please submit via git but note that no points will be deducted for an improper git submission for this project. Git submission mechanics were assessed in the beginning of the semester.
+All deliverables shall be provided by **11:59 PM** at the end of the exam period, **05/08**. Please submit via git but note that no points will be deducted for an improper git submission for this project. Git submission mechanics were assessed in the beginning of the semester. The goal of this assignment is to assess your ability to extract original insights to tell a data driven story that is entirely your own.
 
 ## Requirements
 
@@ -32,25 +32,35 @@ The project Notebook deliverable shall be written as a professional report in th
 * **Motivation**: Write a paragraph explaining why you are studying this problem and why the reader should care about the insights you gain from it. There are many problems to be solved in the world. Explain why yours matters!
 * **Contribution**: Explain what the most novel aspects of your methods are. Write a paragraph describing your contribution to this problem. Ensure that you are making a contribution that has not been made before! (Why should we read your report if you are just making a contribution that has already been made?)
 * **Methods**: Explain the methods you are using to study your problem or dataset. Include a subsection for each method you employed. Explain why you chose each method. Write at least a short paragraph for each method used.
-* **Main Results**: Present the main results here. Be sure to employ at least four techniques from class (see the grading rubric). Include a subsection for each main result that include the visualizations of the result and a short paragraph explaining each.
+* **Main Results**: Present the main results here. Be sure to employ at least three techniques from class (see the grading rubric). Include a subsection for each main result that include the visualizations of the result and a short paragraph explaining each.
 * **Conclusion**: Summarize your findings and contributions in a paragraph here.
 
-### Guidance on Novelty
+### Guidance on Novelty and Insight
 
-There are novel problems and old problems, and novel methods of attacking them and old methods of attacking them. This means there are four types of contributions. Three of them are novel.
+There are novel problems and old problems. There are also novel methods of attacking problems and old methods of attacking them. This means there are four types of contributions. Three of them are novel.
 
 1. We can attack an old problem with an old method. This does not constitute a novel contribution, but can be valuable if we explain the solution in a way that is better than others who have applied these methods have done before.
 2. We can attack an old problem with a new method. This is a novel contribution. We can show why our contribution matters by explaining why we think our new methods will bring new insights into the old problem that many others have studied before.
-3. We can attack a new problem with an old method. This is also a novel contribution. Sometimes old method can solve new problems that have emerged since the method was originally developed. These discoveries are quite exciting since they show us how existing tools can solve emergent problems!
+3. We can attack a new problem with an old method. This is also a novel contribution. Sometimes an old method can solve new problems that have emerged since the method was originally developed. These discoveries are quite exciting since they show us how existing tools can solve emergent problems.
 4. We can also attack new problems with new methods. This is where cutting edge research is performed. There is a wealth of novelty to be found in this region of the problem-solution space!
 
-Any type 2, 3, or 4 insight is a novel one.
+Project notebooks shall make at least one novel insight. Any type 2, 3, or 4 insight is a novel one.
+
+In a professional setting, a novel contribution can be pragmatically thought of as one which someone would hire you on the job to perform. In an informal setting, a novel contribution is one that someone else equally knowledgeable about your field would be interested in discussing with you (and perhaps might even find interesting enough to pay for your meal or drink)!
 
 ### Technical Depth
 
-### Insight
+Deliverables shall be of graduate level technical depth. Indicators of graduate level technical depth include the following.
+
+* Multiple sources shall be surveyed and cited. If others have worked on your problem before, be sure to cite a few examples.
+* The source of the data used shall be cited.
+* The data shall be analyzed with multiple methods. Benefits, challenges, tradeoffs, and limitations of each method shall be discussed. For example, if you use correlation analysis, be sure to discuss the limitations of what can be concluded therefrom.
+* The analyses performed shall show consideration to practical issues, such as noise in the data, considerations for the limitations of correlation, considerations for visualizing high dimensionality, etc.
+* You do not need to solve your unsolved problem (the assignment deadline is far too short for that!) but all notebooks shall present novel ways of thinking about the problems selected.
 
 ### Software
+
+The software used shall follow the principals of software hygiene discussed in class. All lengthy functions (> 20 lines) shall be written in reusable modules and imported into the notebook deliverable. The software written shall run outside your local environment (e.g., in codespaces) with no trouble. This means functions for loading the data or downloading it off the internet must be written in a reusable manner which does not reference local paths.
 
 ### Technical Communication
 
@@ -58,9 +68,9 @@ Project notebooks shall showcase professional technical communication skills. Pr
 
 ### Use of Techniques from Class
 
-You are required to include at least two interactive visualizations. You may use any of the methods learned in class to produce these.
+Project notebooks shall include at least two interactive visualizations. You may use any of the methods learned in class to produce these.
 
-You must additionally use at least four techniques that we have learned from class so far. Candidate techniques include:
+Project notebooks shall additionally use at least three techniques that we have learned from class so far. Candidate techniques include:
 
 * DataFrame masking, combination, and other operations. Use of any of these counts as a single technique, e.g., if you apply masking and DataFrame combination, that counts as one technique.
 * Use of NumPy to accelerate performing computations on our data.
@@ -91,116 +101,138 @@ You must additionally use at least four techniques that we have learned from cla
 
 ## Grading Rubric
 
+The project will be graded out of 100 points.
+
 ### Originality (25%)
 
-#### Original Choice of Problem and Dataset
+The following criteria will be used to assess the originality of a project.
 
-#### Value of the Problem
+#### Choice of Problem and Dataset
+
+Project notebooks shall represent an analysis of a problem of interest to the student's field of choice and explain why it is of interest to this community. Notebooks lacking explanation of why a problem is of interest will lose **5 points**.
 
 #### Original Steps to Visualize the Problem
 
+Project notebooks shall go beyond simply calling available functions from one or two popular libraries and shall instead take original steps to analyze the problem by combining tools from many libraries in unique ways. Notebooks which use < 2 tools to perform a straightforward analysis (e.g., simply generate some default plots) will lose **5 points**.
+
 #### Original Insights Gained from the Visualizations
+
+Project notebooks shall extract at least one novel insight from the dataset chosen. Projects which do not extract a novel insight will lose **5 points**.
+
+See the section providing [guidance on novelty](#guidance-on-novelty-and-insight).
 
 #### Actionability of the Insights
 
-#### Original Code and Work
+The insights presented by project notebooks shall be actionable. For each insight presented, ask yourself, can the reader take action from it? What action would they take? If these questions are difficult to answer, then the information presented is not actionable. Three actionable insights shall be presented per project. A notebook without enough actionable insights will lose **5 points**.
 
 #### Original Exposition of the Insights
 
-### Software Hygiene (25%)
+The insights shall be exposited in an original manner. Each insight should be explained in an original manner, in your own words. Use analogies and other explanatory devices to help the reader see the insights you have extracted from the data and take action on them.
 
-#### Initialization of Variables
+#### Original Code and Work
+
+All code and writing must be the student's own work. See the policies on [collaboration](#policy-on-collaboration), [use of AI](#policy-on-use-of-ai), and the course policy on academic integrity. Any violations of these policies will result in a zero grade.
+
+### Software Hygiene (25%)
 
 #### Use of Modules
 
+Any functions longer than 20 lines of code shall be implemented in importable modules. If any functions greater than 20 lines of code implemented within project notebooks, **5 points** will be deducted.
+
 #### Ensure Your Code Runs in Any Environment
 
-* No local paths
-* Include code to download your data or commit your data with your project
-
-#### Use of a Style Guide
-
-#### Quality of Commit Messages
-
-#### Descriptive Variable and Function Names
-
-#### Dead Code
+Project notebooks shall be executable in any of the environments studied in class (local machine or codespaces). Project notebooks shall not contain local paths specific to your machine. Project notebooks shall include code to download your data or, if this is not possible, shall include data in version control with the project (note that this is not a best practice, but is acceptable for this assignment). Projects which include code that will not be executable outside your local environment will lose **5 points**
 
 #### High Quality Documentation
 
-* All functions must have docstrings
-* Do not comment every line of code
-* The notebook should read like a professional report
+All project deliverables shall provide high quality documentation. All functions shall have docstrings. Use comments, but do not comment every line of code. Write code that is self-explanatory and does not need a comment for every line. Ensure the notebook reads like a professional report. Notebooks and modules without high quality documentation will lose **5 points**.
 
-### Data Management and Visualization Professionalism (25%)
+#### Use of a Style Guide
 
-#### Notebook is Well Structured
+Project notebooks shall be styled with `black`. You do not need to use automatic formatting (though you are encouraged to). Running `black` once before submission is sufficient. Projects clearly unstyled will lose **2.5 points**.
 
-#### Writing is in Full Sentences and Paragraphs
+#### Quality of Commit Messages
 
-#### Plots with Wasted Ink
+Write high quality commit messages using the guidance learned in class. A good commit message should read `"When applied, this commit will...[insert your message here]"`. Poor quality commit messages will lose **2.5 points**.
 
-#### Plots that tell Lies
+#### Descriptive Variable and Function Names
 
-#### Plots in the Wrong Domain
+Variable names shall be descriptive nouns. Function names shall be descriptive verbs. One letter variable names shall not be used. Variables which store measured quantities shall include the units of the measured quantities in their names. Poor quality variable names will lose **2.5 points**.
 
-#### Plots with Labels that Run into Axes
+#### Dead Code
 
-#### Plots with Labels that Run into Other Labels
+Project notebooks shall contain no commented out or dead code. Notebooks with dead code with lose **2.5 points**.
 
-#### Proper Plotting of Bivariate Data
+### Data Management and Visualization Professionalism (35%)
 
-* Correct axes
-* Correct choice of plot type
+#### Technical Communication
 
-#### Proper Plotting of Multivariate Data
+The following deductions will be applied for technical communication considerations.
 
-* Use of multidimensional plotting techniques that do not waste ink (markers, color)
-* Use of interactive plots for data with too many dimensions to visualize
-* Use of multiple axes to plot data with different scales in the same plot
-* Use of 3D plots
+* Notebooks shall adhere to the [project format](#format). Notebooks that do not will lose **5 points**.
+* Notebook shall use full sentences and paragraphs. Writing that is not in full sentences and paragraphs will lose **5 points**.
+* Notebooks shall use a spell checker. Numerous spelling errors (> 5) will lose **2 points**.
+* Notebooks shall be written in clear expository tone. Do not use an exploratory tone, e.g., do not write "here we try X, it didn't work, so instead let's try Y". Exploratory tone is encouraged in exploratory notes, but this project will produce a final deliverable! Exploratory tone will result in a **2 point** deduction.
+* Do not forget to make the goal of each notebook section clear to the reader. Failure to narrate where the reader is in the notebook will result in a **1 point** deduction.
 
-#### Proper Use of Dimensionality Reduction Techniques
+#### Visualization - Minor Point Deductions
 
-#### Proper Representation of Uncertainty
+Violation of any of the following requirements will result in a loss of 2 points each, up to **20 points lost maximum**.
 
-#### Showing Joint and Marginal Distributions where Available
+* Plots shall not waste ink per Tufte's definition.
+* Plots shall not tell lies per Tufte's definition.
+* Plots shall be in the correct domain (e.g., time, frequency, etc.) for the data being used. The domain which maximizes the apparent signal to noise ratio in the plot is the correct domain.
+* Plot labels shall not run into the axes.
+* Plot labels shall not run into other labels.
+* Bivariate data shall use the correct axes.
+* Data shall employ the correct choice of plot type.
+* Multidimensional plotting techniques that do not waste ink (markers, color) shall be employed for multidimensional data.
+* Interactive plots shall be employed for data with too many dimensions to visualize.
+* Multiple axes shall be employed if plotting data with different scales in the same plot.
+* Dimensionality reduction shall be applied to visualize high dimensional data, but only when this preserves the structure of the data (e.g., classes are still separable in a machine learning problem).
+* Plots of statistical data shall include uncertainty and error bounds where applicable.
+* Plots shall show both joint and marginal distributions when available.
+* Polynomial fitting with an appropriate number of coefficients shall be applied to smooth noisy data.
+* The correct coordinate frame shall be used to display map data.
 
-#### Showing N-sigma Bounds
+#### Visualization - Major Point Deductions
 
-#### Showing Error Bounds where Applicable
+Violation of any of the following requirements will result in a loss of **5 points** each, up to a **maximum of 20 points** lost.
 
-#### Proper Use of Correlation and Mutual Information
+* Any correlations used shall be inspected for validity.
+* Correlation shall not be used to imply causation.
+* The lack of correlation shall not be used to imply the lack of a relationship.
+* Correlation shall not be applied across clusters.
+* Outliers shall be removed before applying correlation.
+* Mutual information shall be employed to test data that is not correlated for a nonlinear relationship.
+* The correct mutual information estimation technique (continuous or discrete) shall be employed.
 
-* Correlations inspected for validity
-* Does not use correlation to imply causation
-* Does not consider absence of correlation to indicate lack of a relationship
-* Does not correlate across clusters
-* Removes outliers before applying correlation
-* Uses correct mutual information estimation techniques
-
-#### Proper Application of Polynomial Fitting
-
-#### Correct Coordinate Frame Usage
-
-#### Display of Geographic Data on a Map
-
-### Basics (25%)
+### Basics (15%)
 
 #### Proper Use of Functions and Lambdas
 
+Functions and lambdas shall be implemented correctly without logical or execution errors (3 points).
+
 #### Proper Use of Conditional Statements, For Loops
+
+Conditional statements and for loops shall be implemented correctly without logical or execution errors (3 points).
 
 #### Proper Use of Data Structures
 
+The correct Python data structures shall be used (Lists, Dictionaries, Tuples, etc.) for the correct applications (3 points).
+
 #### Proper Use of NumPy
+
+NumPy shall be used for code that operates with arrays. Array operations shall be used instead of for loops (3 points).
 
 #### Proper Use of DataFrames
 
-* Use `apply()` to iterate a function over a DataFrame
-* Use `to_list` and `to_numpy`
-* Proper access to rows, columns, and elements
-* Proper use of masks to select data
+DataFrames shall be used properly (3 points).
+
+* The `apply()` function shall be used to iterate a function over a DataFrame.
+* Use `to_list` and `to_numpy` functions shall be used to extract lists and arrays from a DataFrame.
+* Rows, columns, and elements shall be accessed properly.
+* Masks shall be used correctly to select data.
 
 ## Policy on Collaboration
 
@@ -225,7 +257,7 @@ Any violations of these policies will result in a grade of **zero** for the fina
 
 ## Anti-Patterns to Avoid
 
-The following anti-patterns shall be avoided. Ask if you have a question about any of these. Unless specified elsewhere, each occurrence of these anti-patterns will result in a **two point deduction** so please be careful!
+The following anti-patterns shall be avoided. Ask if you have a question about any of these. Unless specified elsewhere, each occurrence of these anti-patterns will result in a **2.5 point deduction** so please be careful!
 
 ### Visualization Anti-Patterns
 
