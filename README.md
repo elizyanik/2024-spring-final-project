@@ -249,7 +249,7 @@ Any violations of these policies will result in a grade of **zero** for the fina
 
 Using AI tools to help you write code is allowed, however, do not do violate any of the following rules.
 
-* Do not provide code written by AI without adding any original work to it. If you just learn to use AI to perform tasks, why hire you when the AI can do the work cheaper and without getting tired?
+* Do not provide code written by AI tools without adding any original work to it. If you just learn to use AI to perform tasks, why hire you when the AI can do the work cheaper and without getting tired?
 * Do not provide code written by AI without checking that it actually does what you think it does.
 * Do not use AI in a way that violates the Veterinary Dentists law, i.e., ensure you have knowledge of the AI tools you are using AND knowledge of the domain in which you are applying them. For example, do not use AI to perform analysis of a dataset in a field you know nothing about without researching that field extensively to ensure the AI results are correct, and do not use AI to perform an analysis in a field you are an expert about unless you provide citations to the AI tools you are using and can demonstrate you understand how they work, and how they arrived at the insights you acquired from them.
 
@@ -304,5 +304,3 @@ The following anti-patterns shall be avoided. Ask if you have a question about a
 * Do not use the same exact code as another student (this **will result in a zero** - see collaboration policy and policy on academic integrity).
 * Do not use code directly from an AI tool without performing any original work on the code (this **will result in a zero** - see AI policy and policy on academic integrity).
 * Do not use plots using common tools without performing any transformations on data or explaining what insights the plots reveal (e.g., simply generating a correlation matrix without performing any investigation around which correlations are valid and what they mean).
-
-
