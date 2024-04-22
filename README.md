@@ -68,7 +68,7 @@ Project notebooks shall showcase professional technical communication skills. Pr
 
 ### Use of Techniques from Class
 
-Project notebooks shall include at least two interactive visualizations. You may use any of the methods learned in class to produce these.
+Project notebooks shall include at least one interactive visualizations. You may use any of the methods learned in class to produce these.
 
 Project notebooks shall additionally use at least three techniques that we have learned from class so far. Candidate techniques include:
 
